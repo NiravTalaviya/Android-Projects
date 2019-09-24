@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "556366975666",
+    "firebase_url": "https://stmart-b7067.firebaseio.com",
+    "project_id": "stmart-b7067",
+    "storage_bucket": "stmart-b7067.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:556366975666:android:f756b9f15104448a",
+        "android_client_info": {
+          "package_name": "com.example.stmart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "556366975666-3h303vsrlnfkfjdca8h26tfd5m6s6ivu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.stmart",
+            "certificate_hash": "e32cb05edd4d5c4d130377a50f3d14abbd945d3f"
+          }
+        },
+        {
+          "client_id": "556366975666-m8jc3ckrm26h21md9s03eqn7ahjl6s25.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCB51nEPR-e3RANJaqiX4J3WYBHsSxjvyU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "556366975666-m8jc3ckrm26h21md9s03eqn7ahjl6s25.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

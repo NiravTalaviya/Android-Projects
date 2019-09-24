@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".image">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="MissingConstraints"
+            android:layout_gravity="center">
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:id="@+id/showproduct"
+            android:layout_centerHorizontal="true"
+            tools:ignore="MissingConstraints"
+            android:layout_marginTop="100dp"
+            />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/getdetail"
+                android:text="Get Detail"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/showproduct"/>
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:id="@+id/qr"
+                android:layout_below="@+id/getdetail"
+                android:layout_centerHorizontal="true"
+                android:textAlignment="center"/>
+    </RelativeLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
